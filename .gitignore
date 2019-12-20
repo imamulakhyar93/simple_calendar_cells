@@ -6,3 +6,7 @@
 /pkg/
 /spec/reports/
 /tmp/
+Gemfile.lock
+bin/
+test/dummy_app/log/
+test/dummy_app/tmp/

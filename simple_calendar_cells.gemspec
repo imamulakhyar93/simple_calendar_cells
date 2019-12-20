@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Simple calendar in Cells.'
   spec.description   = 'Simple calendar helper in Cells.'
-  spec.homepage      = 'https://github.com/apotonick/kaminari-cells'
+  spec.homepage      = 'https://github.com/imamulakhyar93/simple_calendar_cells'
   spec.license       = 'MIT'
 
   # # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -44,7 +44,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'cells-erb'
   spec.add_development_dependency 'cells-rails'
   spec.add_development_dependency 'minitest', '~> 5.0'
-  spec.add_development_dependency 'modularize'
-  spec.add_development_dependency 'rails', '5.1.1'
+  spec.add_development_dependency 'rails'
   spec.add_development_dependency 'rake', '~> 10.0'
 end
