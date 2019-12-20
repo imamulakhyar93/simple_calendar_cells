@@ -1,0 +1,3 @@
+<% date_range.each do |day|
+ %><%= block.call day, sorted_events.fetch(day, []) %>
+<% end %>
